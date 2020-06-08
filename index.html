@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Query GitHub User Repos</h1>
+    <form id="js-form">
+        <label for="GitHub-user">GitHub-user</label>
+        <input type="text" name="GitHub-user" id="GitHub-user" required><br>
+        <input type="submit" value="Go!">
+    </form>
+
+    <section class="js-resultsSection">
+        <h2></h2>
+        <ul class="js-results">
+        </ul>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
